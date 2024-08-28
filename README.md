@@ -38,3 +38,6 @@ head:
 - main标签只能有一个
 - img的alt、title必须有值
 - a标签的href
+
+## 部署静态网站到git
+1. 打开仓库的settings

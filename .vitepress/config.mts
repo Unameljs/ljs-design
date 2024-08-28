@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ljs-vitepress",//网页标签 头部组件左侧标题
   description: "ljs-vitepress-one-demo",
+  outDir:"docs",//打包输出到根目录 默认在.vitepress/dist下面
   themeConfig: {
     logo: '/logo.jpg',//头部组件左侧logo
     // https://vitepress.dev/reference/default-theme-config
