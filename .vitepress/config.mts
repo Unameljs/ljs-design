@@ -61,6 +61,6 @@ export default defineConfig({
   },
   head:[
     //自定义头部
-    ['link',{rel:"icon",href:"/logo.jpg"}] 
+    ['link',{rel:"icon",href:"/ljs-design/logo.jpg"}] //如果设置了 base，则使用 /base/favicon.ico
   ]
 })
