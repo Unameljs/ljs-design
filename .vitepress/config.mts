@@ -7,7 +7,7 @@ export default defineConfig({
   outDir:"docs",//打包输出到根目录 默认在.vitepress/dist下面
   base:"/ljs-design/",//打包带上/ljs-design/路径 原先路径/assets/app.BlgFNldS.js 变成 /ljs-design/assets/app.BlgFNldS.js
   themeConfig: {
-    logo: '../public/logo.jpg',//头部组件左侧logo
+    logo:"/public/logo.jpg",//头部组件左侧logo
     // https://vitepress.dev/reference/default-theme-config
     nav: [ //头部组件右侧导航
       { text: '主页', link: '/' },
@@ -58,5 +58,9 @@ export default defineConfig({
     search:{
       provider:"local"
     },
-  }
+  },
+  head:[
+    //自定义头部
+    ['link',{rel:"icon",href:"/ljs-design//public/logo.jpg"}] 
+  ]
 })
