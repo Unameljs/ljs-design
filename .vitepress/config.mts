@@ -61,6 +61,6 @@ export default defineConfig({
   },
   head:[
     //自定义头部
-    ['link',{rel:"icon",href:"/ljs-design//public/logo.jpg"}] 
+    ['link',{rel:"icon",href:"/ljs-design/public/logo.jpg"}] 
   ]
 })
