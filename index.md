@@ -18,7 +18,7 @@ hero:
   text: "ljs-vitepress-one-demo"
   tagline: My great project tagline
   image: 
-    src: /ljs-desingn/logo.jpg # 主页logo
+    src: /logo.jpg # 主页logo
   actions:
     - theme: brand
       text: Markdown Examples
